@@ -4,6 +4,6 @@ public class ItalianAntiMoneyLaunderingPolicy implements AntiMoneyLaunderingPoli
     @Override
     public boolean isLegalDeposit(double toDeposit) {
         // beware! A very complex implementation!
-        return toDeposit <= 50000;
+        return toDeposit <= 50000D;
     }
 }
